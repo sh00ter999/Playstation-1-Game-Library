@@ -1,0 +1,13 @@
+.buttons{
+
+    background-color: lightgrey; 
+    padding: 10px; 
+    display: flex; 
+}
+
+.padded{
+
+    padding: 10px; 
+    display:flex; 
+    background-color: lightgreen;
+}
