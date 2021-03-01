@@ -1,4 +1,4 @@
-var folder = "covers/"; 
+var folder = "https://raw.githubusercontent.com/sh00ter999/Playstation-1-Game-Library/main/covers/"; 
 
 $(document).ready( function () {
 
