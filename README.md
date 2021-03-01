@@ -6,3 +6,7 @@ The objective is to create an easy and pleasant to browse web page that adds som
 
 A deep dive into nostalgia.
 
+
+Website Preview: 
+
+https://sh00ter999.github.io/Playstation-1-Game-Library/
