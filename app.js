@@ -1,17 +1,12 @@
-$(document).ready( function () {
-    // $("p").on({
-    //     mouseenter: function() {
-    //         $(this).css("background-color", "lightgray");
-    //     },
-    //     mouseleave: function() {
-    //       $(this).css("background-color", "lightblue");  
-    //     },
-    //     click: function() {
-    //         $(this).css("background-color", "yellow");
-    //     }
-    // });
+var folder = "covers/"; 
 
-    $("button").click(function(){
-        $("div").load("text.txt");
-    });
+$.ajax({
+    url : folder,
+    success: function (data) {
+        $(data).find("a").attr("href", function (i, val) {
+            if( val.match(/\.(jpe?g|png|gif)$/) ) { 
+                $(".gallery").append( "<img src='"+ folder + val +"'>" );
+            } 
+        });
+    }
 });
