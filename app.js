@@ -12,6 +12,6 @@ $(document).ready( function () {
     // });
 
     $("button").click(function(){
-        $("div").load("website-test.txt");
+        $("div").load("text.txt");
     });
 });
